@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Order</string>
+    <string name="doi">Đợi</string>
+    <string name="tra">Trả</string>
+</resources>

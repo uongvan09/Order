@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGreen">#2ee1bd</color>
+    <color name="colorYellow">#f9a442</color>
+    <color name="colorButtonChoose">#6ff1ff</color>
+    <color name="colorButtonDefault">#ffffff</color>
+    <color name="colorFoodGray">#efefef</color>
+    <color name="colorFoodDefaut">#ffffff</color>
+</resources>

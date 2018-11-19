@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="26dp"
+    android:layout_margin="4dp"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imgBgTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icon_table_full" />
+
+    <TextView
+        android:id="@+id/tvNumberTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="01"
+        android:textColor="#ff0008"
+        android:textSize="31sp"
+        android:textStyle="bold" />
+</RelativeLayout>
