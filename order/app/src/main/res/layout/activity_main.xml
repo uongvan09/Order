@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="#60ddff"-->
+        <!--android:paddingBottom="6dp"-->
+        <!--android:paddingTop="6dp">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="25dp"-->
+            <!--android:layout_marginLeft="8dp"-->
+            <!--android:background="@drawable/icon_back" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="Sơ đồ"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold" />-->
+    <!--</RelativeLayout>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="#a6a6a6" />-->
+
+    <FrameLayout
+        android:id="@+id/fragmentMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a6a6a6" />
+
+    <LinearLayout
+        android:id="@+id/lnlHeaderMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnSoDoMain"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="@drawable/icon_map_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Sơ đồ"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#a6a6a6" />
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/btnOrderMain"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:orientation="vertical"-->
+            <!--&gt;-->
+
+            <!--<ImageView-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:layout_width="26dp"-->
+                <!--android:layout_height="26dp"-->
+                <!--android:background="@drawable/icon_order_color" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:text="Order"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="15sp" />-->
+        <!--</LinearLayout>-->
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#a6a6a6" />
+
+        <LinearLayout
+            android:id="@+id/btnTraMonMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="@drawable/icon_order_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Order"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#a6a6a6" />
+
+        <LinearLayout
+            android:id="@+id/btnKhacMain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="@drawable/ic_menu_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Cá nhân"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

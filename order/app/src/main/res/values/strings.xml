@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Order</string>
+    <string name="doi">Đợi</string>
+    <string name="tra">Trả</string>
+    <string name="fogotPassword"><u>Quên mật khẩu</u></string>
+    <string name="register"><u>Đăng ký</u></string>
+    <string name="logout"><u>Đăng xuất</u></string>
+    <string name="back">Nhấn phím <b>Back</b> một lần nữa để thoát ứng dụng</string>
+</resources>
